@@ -42,7 +42,7 @@ public class Movie {
 
     }
 
-    public String listOfMovies(String userInput) {
+    public void listOfMovies(String userInput) {
         ArrayList<Movie> list = new ArrayList<>();
         list.add(new Movie("Legally Blonde", "comedy"));
         list.add(new Movie("Zoolander", "comedy"));
@@ -64,7 +64,7 @@ public class Movie {
             }
 
 
-        }  return "No more movies in this category";
+        }  //return "";
     }
 
     @Override
